@@ -13,7 +13,7 @@ from forms import *
 #----------------------------------------------------------------------------#
 
 app = Flask(__name__)
-app.config.from_object('config')
+app.config.from_object('cfg')
 #db = SQLAlchemy(app)
 
 # Automatically tear down SQLAlchemy.
