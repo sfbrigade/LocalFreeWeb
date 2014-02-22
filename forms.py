@@ -15,3 +15,12 @@ class LoginForm(Form):
 
 class ForgotForm(Form):
     email       = TextField('Email', validators = [Required(), Length(min=6, max=40)])
+
+class AddLocationForm(Form):
+	locationName = TextField('Location Name', validators = [Required(), Length(min=2, max=50)])
+	# iap_str_address
+	# iap_city
+	# iap_state
+	# iap_zip
+	# email
+	# tel
