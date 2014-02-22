@@ -27,5 +27,18 @@ class User(Base):
         self.password = password
 '''
 
+class AccessPoint
+    __tablename__ = 'InternetAccessPoint'
+
+    iap_id = db.Column(db.Integer, primary_key=True)
+    iap_name = db.Column(db.String(120), unique=True)
+    iap_str_address = db.Column(db.String(120))
+    iap_city = db.Column(db.String(120))
+    iap_state = db.Column(db.String(16))
+    iap_zip = db.Column(db.Integer)
+    email = db.Column(db.String(120))
+
+
+
 # Create tables.
 Base.metadata.create_all(bind=engine)
