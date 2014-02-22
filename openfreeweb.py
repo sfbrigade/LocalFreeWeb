@@ -52,6 +52,10 @@ def about():
 def find():
     return render_template('pages/find.html')
 
+@app.route('/results')
+def results():
+    return render_template('pages/results.html')
+    
 # Add a new internet location
 @app.route('/add')
 def add():
@@ -67,11 +71,10 @@ def location():
 def edit():
     return render_template('pages/edit.html')
 
-#######
-#
+#---------
 # User admin
-#
-#######
+#---------
+
 @app.route('/login')
 def login():
     form = LoginForm(request.form)
