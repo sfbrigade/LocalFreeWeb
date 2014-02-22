@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, Integer, String
-from app import db
+from openfreeweb import db
 
 engine = create_engine('sqlite:///database.db', echo=True)
 db_session = scoped_session(sessionmaker(autocommit=False,
@@ -37,6 +37,7 @@ class AccessPoint
     iap_state = db.Column(db.String(16))
     iap_zip = db.Column(db.Integer)
     email = db.Column(db.String(120))
+    tel = db.Column(db.String(10))
 
 
 
