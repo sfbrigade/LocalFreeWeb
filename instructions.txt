@@ -1,0 +1,11 @@
+Twilio will send our app the request
+
+Our app will ask cartodb where that bus stop lives?
+http://localfreeweb.cartodb.com/api/v2/sql?q=SELECT stop_lat, stop_lon FROM stops WHERE stop_id = 660
+
+CartoDb will return the lat, lon
+
+Our flask app will use that lat, lon to ask CartoDB the give us the three closest to that lat lon
+http://localfreeweb.cartodb.com/api/v2/sql?q=SELECT name, ST_Distance(the_geom::geography, ST_PointFromText('POINT(-122.475096 37.72119)', 4326)::geography) AS distance FROM freeweb ORDER BY distance ASC LIMIT 3
+
+Our flask app will then tell Twilio to text the data back to that person.
