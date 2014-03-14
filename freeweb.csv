@@ -1,0 +1,30 @@
+name,address,city,state,zip,country,lat,lng,org_type,phone,training_types,website
+Excelsior Community Center,4468 Mission St,San Francisco,CA,94112,US,37.725829,-122.434029,Training Center,4153349919, ,http://www.bhnc.org/
+Mission YMCA,4080 Mission St,San Francisco,CA,94112,US,37.732706,-122.427591,Training Center,4154527569, ,http://www.ymcasf.org/mission/
+IT Bookman Community Center,446 Randolph St,San Francisco,CA,94132,US,37.714351,-122.466762,Training Center,4155868020,null,http://www.itbookmancenter.org/
+Stonestown YMCA,null,San Francisco,CA,94132,US,37.7200012207,-122.4700012207,Training Center,4152427115, ,http://www.ymcasf.org/stonestown/
+30th St. Senior Center,225 30th St,San Francisco,CA,94131,US,37.74211,-122.425231,Training Center,4155502210,"Scheduled Classes,Online Classes,One-on-One Training",http://www.onlok.org/30thStreetSeniorCenter.aspx
+OMI Senior Center-Catholic Charities CYO,65 Beverly St,San Francisco,CA,94132,US,37.716729,-122.471698,Training Center,4153345550,"Scheduled Classes,One-on-One Training",http://community.cccyo.org/page.aspx?pid=355
+Bernal Heights Neighborhood Center,515 Cortland Ave,San Francisco,CA,94110,US,37.739085,-122.41596,Training Center,4152062140,"Scheduled Classes,One-on-One Training",http://www.bhnc.org
+San Francisco Senior Center Downtown Branch,481 O'Farrell St.,San Francisco,CA,94114,US,37.75,-122.4300003052,Training Center,4157717950,"Scheduled Classes,One-on-One Training",http://www.sfsenior.com/downtown.htm
+Dr. George W. Davis Senior Center,1706 Yosemite Ave,San Francisco,CA,94124,US,37.728997,-122.395438,Training Center,4158221444, ,http://www.bhpmss.org/dr_george_w_davis_senior_center
+Castro Senior Center,110 Diamond St,San Francisco,CA,94127,US,37.759314,-122.437126,Training Center,4158633507, ,null
+Bethany Center,580 Capp St,San Francisco,CA,94110,US,37.758398,-122.417986,Training Center,4158211003, ,http://www.bethanycenter.org/
+Accelerate SF Computer Center,2301 Mission St,San Francisco,CA,94110-1813,US,37.76005,-122.4192,Training Center,null,"Scheduled Classes,One-on-One Training",http://womensbuilding.org
+Mission Neighborhood Centers,362 Capp St,San Francisco,CA,94110,US,37.761308,-122.418269,Training Center,4152067750,"Scheduled Classes,Online Classes,One-on-One Training",http://mncsf.org
+Mission Graduates,3040 16th St,San Francisco,CA,94103,US,37.765054,-122.420881,,4158645205, ,http://www.missiongraduates.org
+Valencia Gardens,360 Valencia St,San Francisco,CA,94103,US,37.766727,-122.422134,Training Center,4158211003, ,null
+Centro Latino,null,San Francisco,CA,94103,US,37.7700004578,-122.4100036621,Training Center,4158618758, ,http://centrolatino.org/
+Canon Kip Senior Center,705 Natoma St,San Francisco,CA,94103,US,37.775434,-122.413615,Training Center,4154873356,,http://ecs-sf.org/programs/cksc.html
+Lighthouse for the Blind & Visually Impaired,214 Van Ness Ave,San Francisco,CA,94102,US,37.777573,-122.419604,Training Center,4154311481,,http: //lighthouse-sf.org/
+WesternAdditionSeniorCenter,1390-1/2TurkStreet,SanFrancisco,CA,94115,US,37.7799987793,-122.4300003052,TrainingCenter,4159217805,One-on-OneTraining,http: //bhpmss.org/western_addition_senior_center
+RosaParksSeniorCenter,1111BuchananSt,SanFrancisco,CA,94115,US,37.780832,-122.428727,TrainingCenter,4157152012,,null
+COMMUNITYLEARNINGCENTER,520TAMARACKLANE,SOUTHSANFRANCISCO,CA,94080,US,37.658145,-122.416357,Library,6508778540,,null
+EasternParkApartments,711EddySt,SanFrancisco,CA,94109,US,37.782865,-122.420469,TrainingCenter,4157760114,"ScheduledClasses,One-on-OneTraining",http: //www.ncphs.org/affordable-housing/eastern-park-apartments-san-francisco
+TenderloinTechnologyLab,150GoldenGateAve,SanFrancisco,CA,94102,US,37.781863,-122.413866,TrainingCenter,4154922766,"ScheduledClasses,One-on-OneTraining",www.tenderlointechnologylab.org
+CurrySeniorCenter,315TurkSt,SanFrancisco,CA,94102,US,37.782541,-122.415497,TrainingCenter,4158852274,,http: //curryseniorcenter.org/
+VietnameseElderlyMutualAssistanceCenter,910LarkinSt,SanFrancisco,CA,94109,US,37.786383,-122.418075,TrainingCenter,4159230778,,null
+VietnameseCommunityCenter,766GearySt,SanFrancisco,CA,94109,US,37.786398,-122.416371,TrainingCenter,null,,null
+RichmondSeniorCenter,6221GearyBlvd,SanFrancisco,CA,94121,US,37.77986,-122.486685,TrainingCenter,4157526444,,null
+RaphaelHouse,1065SutterSt,SanFrancisco,CA,94109,US,37.788177,-122.416827,TrainingCenter,4154744621,ScheduledClasses,www.raphaelhouse.org
+AnzaPublicLibrary,55037thAve.,SanFrancisco,CA,94121,US,37.778534,-122.497223,PublicLibrary,4153555717,,null
