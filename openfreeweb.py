@@ -14,7 +14,7 @@ from forms import *
 
 app = Flask(__name__)
 app.config.from_object('cfg')
-#db = SQLAlchemy(app)
+db = SQLAlchemy(app)
 
 # Automatically tear down SQLAlchemy.
 '''
@@ -41,12 +41,37 @@ def login_required(test):
 
 @app.route('/')
 def home():
-    return render_template('pages/placeholder.home.html')
+    return render_template('pages/home.html')
 
 @app.route('/about')
 def about():
     return render_template('pages/placeholder.about.html')
 
+# Search action - see if needs its own function
+@app.route('/find')
+def find():
+    return render_template('pages/find.html')
+
+# Add a new internet location
+@app.route('/add')
+def add():
+    return render_template('pages/add_location.html')
+
+# View individual internet location
+@app.route('/location')
+def location():
+    return render_template('pages/location.html')
+
+# Edit individual location
+@app.route('/edit')
+def edit():
+    return render_template('pages/edit.html')
+
+#######
+#
+# User admin
+#
+#######
 @app.route('/login')
 def login():
     form = LoginForm(request.form)
@@ -61,6 +86,8 @@ def register():
 def forgot():
     form = ForgotForm(request.form)
     return render_template('forms/forgot.html', form = form)
+
+
 
 # Error handlers.
 
@@ -89,10 +116,3 @@ if not app.debug:
 # Default port:
 if __name__ == '__main__':
     app.run()
-
-# Or specify port manually:
-'''
-if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 5000))
-    app.run(host='0.0.0.0', port=port)
-'''
