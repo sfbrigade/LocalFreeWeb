@@ -1,3 +1,7 @@
+#!/usr/bin/python
+#Enter bus stop id and it will print to console info for 3 closest locations
+#for free web
+
 import urllib, simplejson
 
 if __name__ == '__main__':
