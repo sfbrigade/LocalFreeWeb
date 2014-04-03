@@ -34,8 +34,8 @@ def receive_text():
 
 	# return str(response_dict['rows'][i]['address']
 	resp = twilio.twiml.Response()
-    resp.message(response_dict['rows'][0]['name'])
-    return str(resp) 
+	resp.message(response_dict['rows'][0]['name'])
+	return str(resp) 
 
 if __name__ == "__main__":
     app.run(debug=True)
