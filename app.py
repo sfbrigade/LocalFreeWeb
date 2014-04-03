@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def receive_text():
-	
+
 	# get_geo_url = 'http://localfreeweb.cartodb.com/api/v2/sql?q=SELECT stop_lat, stop_lon FROM stops WHERE stop_id = '
 	# get_geo_url += stop_id
 	# response = urllib.urlopen(get_geo_url)
@@ -31,7 +31,8 @@ def receive_text():
 	# 	    print 'Phone number: ' + str(response_dict['rows'][i]['phone'])
 
 	# return str(response_dict['rows'][i]['address'])
-	return str(request.values.keys())
+	print request.values.keys()
+	return "Hello"
 
 if __name__ == "__main__":
     app.run(debug=True)
