@@ -7,10 +7,11 @@ app = Flask(__name__)
 @app.route("/",methods=["POST"])
 def receive_text():
 
-	stop_id = request.values.get("Body")
+	print request.values
+	# stop_id = request.values.get("Body")
 
 	get_geo_url = 'http://localfreeweb.cartodb.com/api/v2/sql?q=SELECT stop_lat, stop_lon FROM stops WHERE stop_id = '
-	get_geo_url += stop_id
+	get_geo_url += 390
 	response = urllib.urlopen(get_geo_url)
 	for line in response:
 		response_dict = simplejson.loads(line)
