@@ -4,7 +4,7 @@ import twilio.twiml
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/",methods=["POST"])
 def receive_text():
 
 	# get_geo_url = 'http://localfreeweb.cartodb.com/api/v2/sql?q=SELECT stop_lat, stop_lon FROM stops WHERE stop_id = '
@@ -30,9 +30,8 @@ def receive_text():
 	# 	    print 'San Francisco, CA ' + str(response_dict['rows'][i]['zip'])
 	# 	    print 'Phone number: ' + str(response_dict['rows'][i]['phone'])
 
-	# return str(response_dict['rows'][i]['address'])
-	print request.values.keys()
-	return "Hello"
+	# return str(response_dict['rows'][i]['address']
+	return request.values.get("Body")
 
 if __name__ == "__main__":
     app.run(debug=True)
