@@ -1,11 +1,12 @@
 from flask import Flask, request
 import urllib, simplejson
 import twilio.twiml
+
 app = Flask(__name__)
 
-@app.route("/receive_text")
+@app.route("/")
 def receive_text():
-
+	
 	# get_geo_url = 'http://localfreeweb.cartodb.com/api/v2/sql?q=SELECT stop_lat, stop_lon FROM stops WHERE stop_id = '
 	# get_geo_url += stop_id
 	# response = urllib.urlopen(get_geo_url)
