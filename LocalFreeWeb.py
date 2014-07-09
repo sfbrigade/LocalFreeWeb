@@ -36,5 +36,6 @@ if __name__ == '__main__':
     	    response += ' ' + str(response_dict['rows'][i]['address']) + ';'
 #    	    print 'San Francisco, CA ' + str(response_dict['rows'][i]['zip'])
 #    	    print 'Phone number: ' + str(response_dict['rows'][i]['phone'])
-    print response
+    if type(response) is str:
+        print response
     	    

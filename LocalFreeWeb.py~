@@ -8,6 +8,8 @@
 #Texto 913*2 to 40909 para el internet mas proximo
 #Chinese 913*3 Chinese 40909 Chinese
 
+from flask import Flask, request, redirect
+import twilio.twiml
 import urllib, simplejson
 
 if __name__ == '__main__':
