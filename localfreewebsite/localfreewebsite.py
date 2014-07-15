@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import flask, flask.views
 from pygeocoder import Geocoder
 import urllib

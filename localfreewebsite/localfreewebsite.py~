@@ -50,7 +50,7 @@ class View(flask.views.MethodView):
             }
             data = urllib.urlencode(params)
             print 'Encoded:', data
-            url += '?q=' + insert + '&api_key=' + apikey
+            url += '?' + data
             #request = urllib2.Request(url)
             
             try:
