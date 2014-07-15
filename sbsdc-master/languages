@@ -1,8 +1,0 @@
-# languages
-python|/usr/bin/python|.py
-perl|perl|.pl
-php|php|.php
-ruby|ruby|.rb
-bash|./|
-java|java|
-jar|java -jar|.jar
