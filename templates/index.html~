@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>LocalFreeWeb</title>
+        <script type="text/javascript" src="{{ url_for('static', filename='add_location.js') }}"></script>
+    </head>
+    <body>
+        Enter information for location where you will provide "free internet".</br> The fields with a '*'' are required:
+        <form action="/" method="post">
+            Name<input type="text" name="name" />*</br>
+            Street Address<input type="text" name="street_address"/>*</br>
+            Apt/Fl/Rm/Ste<input type="text" name="line_two"/></br>
+            City<input type="text" name="city"/>*</br>
+            State<input type="text" name="state"/></br>
+            Zipcode<input type="text" name="zip"/></br>
+            Contact number<input type="text" name="phone"/>*</br>
+            website<input type="text" name="website"/></br>
+            Choose your days and hours that you can provide computers with 'free internet' access, youcan split the hours</br>
+            <!-- Monday begin -->
+            <label>
+              <input type="checkbox" name="0status" value="0open"/>  Monday 
+            </label>
+               <label>
+               from <select name="0open">
+					 <option value="12am">12:00am</option>
+					 <option value="12:30am">12:30am</option>
+					 <option value="1am">1:00am</option>
+					 <option value="1:30am">1:30am</option>
+					 <option value="2am">2:00am</option>
+					 <option value="2:30am">2:30am</option>
+					 <option value="3am">3:00am</option>
+					 <option value="3:30am">3:30am</option>
+					 <option value="4am">4:00am</option>
+					 <option value="4:30am">4:30am</option>
+					 <option value="5am">5:00am</option>
+					 <option value="5:30am">5:30am</option>
+					 <option value="6am">6:00am</option>
+					 <option value="6:30am">6:30am</option>
+					 <option value="7am">7:00am</option>
+					 <option value="7:30am">7:30am</option>
+					 <option value="8am">8:00am</option>
+					 <option value="8:30am">8:30am</option>
+					 <option value="9am" selected="selected">9:00am</option>
+					 <option value="9:30am">9:30am</option>
+					 <option value="10am">10:00am</option>
+					 <option value="10:30am">10:30am</option>
+					 <option value="11am">11:00am</option>
+					 <option value="11:30am">11:30am</option>
+					 <option value="12pm">12:00pm</option>
+					 <option value="12:30pm">12:30pm</option>
+					 <option value="1pm">1:00pm</option>
+					 <option value="1:30pm">1:30pm</option>
+					 <option value="2pm">2:00pm</option>
+					 <option value="2:30pm">2:30pm</option>
+					 <option value="3pm">3:00pm</option>
+					 <option value="3:30pm">3:30pm</option>
+					 <option value="4pm">4:00pm</option>
+					 <option value="4:30pm">4:30pm</option>
+					 <option value="5pm">5:00pm</option>
+					 <option value="5:30pm">5:30pm</option>
+					 <option value="6pm">6:00pm</option>
+					 <option value="6:30pm">6:30pm</option>
+					 <option value="7pm">7:00pm</option>
+					 <option value="7:30pm">7:30pm</option>
+					 <option value="8pm">8:00pm</option>
+					 <option value="8:30pm">8:30pm</option>
+					 <option value="9pm">9:00pm</option>
+					 <option value="9:30pm">9:30pm</option>
+					 <option value="10pm">10:00pm</option>
+					 <option value="10:30pm">10:30pm</option>
+					 <option value="11pm">11:00pm</option>
+					 <option value="11:30pm">11:30pm</option>
+				   </select>
+			</label>
+			<label>  </label>
+               to  <select name="0hour_cl">
+					 <option value="12am">12:00am</option>
+					 <option value="12:30am">12:30am</option>
+					 <option value="1am">1:00am</option>
+					 <option value="1:30am">1:30am</option>
+					 <option value="2am">2:00am</option>
+					 <option value="2:30am">2:30am</option>
+					 <option value="3am">3:00am</option>
+					 <option value="3:30am">3:30am</option>
+					 <option value="4am">4:00am</option>
+					 <option value="4:30am">4:30am</option>
+					 <option value="5am">5:00am</option>
+					 <option value="5:30am">5:30am</option>
+					 <option value="6am">6:00am</option>
+					 <option value="6:30am">6:30am</option>
+					 <option value="7am">7:00am</option>
+					 <option value="7:30am">7:30am</option>
+					 <option value="8am">8:00am</option>
+					 <option value="8:30am">8:30am</option>
+					 <option value="9am" selected="selected">9:00am</option>
+					 <option value="9:30am">9:30am</option>
+					 <option value="10am">10:00am</option>
+					 <option value="10:30am">10:30am</option>
+					 <option value="11am">11:00am</option>
+					 <option value="11:30am">11:30am</option>
+					 <option value="12pm">12:00pm</option>
+					 <option value="12:30pm">12:30pm</option>
+					 <option value="1pm">1:00pm</option>
+					 <option value="1:30pm">1:30pm</option>
+					 <option value="2pm">2:00pm</option>
+					 <option value="2:30pm">2:30pm</option>
+					 <option value="3pm">3:00pm</option>
+					 <option value="3:30pm">3:30pm</option>
+					 <option value="4pm">4:00pm</option>
+					 <option value="4:30pm">4:30pm</option>
+					 <option value="5pm" selected="selected">5:00pm</option>
+					 <option value="5:30pm">5:30pm</option>
+					 <option value="6pm">6:00pm</option>
+					 <option value="6:30pm">6:30pm</option>
+					 <option value="7pm">7:00pm</option>
+					 <option value="7:30pm">7:30pm</option>
+					 <option value="8pm">8:00pm</option>
+					 <option value="8:30pm">8:30pm</option>
+					 <option value="9pm">9:00pm</option>
+					 <option value="9:30pm">9:30pm</option>
+					 <option value="10pm">10:00pm</option>
+					 <option value="10:30pm">10:30pm</option>
+					 <option value="11pm">11:00pm</option>
+					 <option value="11:30pm">11:30pm</option>
+				   </select>
+				   <div id="0continuous" >
+				     <a href="javascript:void(0);" onclick="0show();">split hours ></a>
+				   </div>
+				   <div id="0split" style="display:none;">
+				   Heelo
+				   </div> 
+			</label>
+			<!-- Monday end -->	   
+			</br>
+			
+            <input type="submit" name="Add" value="Submit"/></br>
+        </form>
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                
+                <pre>
+                    {% for message in messages %}
+                        {% print message %}                
+                    {% endfor %}
+                </pre>
+            {% endif %}  
+        {% endwith %}     
+    </body> 
+</html>   

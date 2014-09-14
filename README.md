@@ -1,12 +1,25 @@
-OpenFreeWeb
+LocalFreeWeb
 ===========
 
-A resource directory of internet sites in San Francisco
+A resource directory of sites that provide free access to internet enabled
+computers in San Francisco.
 
-The following resources have been used:
+PLEASE NOTE:
+This repository only includes a Flask app, addlocation.py that is executed via
+a command prompt and run on local host, for adding additional entries to our
+network of locations that provide free access to internet enabled computers
+and a PDF with our flier in English, Mandarin and Spanish.
 
-SFMTA transit data that includes a list(seemingly not comprehensive) of all
-bus stops and their meta data ie; address, ID, Geocode.
+Here is our git repository for our text messaging app:
+https://github.com/sfbrigade/localfreeweb-sms-api
+
+Here is our git repository for our website LocalFreeWeb.org:
+https://github.com/sfbrigade/localfreeweb.org
+
+In addition, the following resources have been used:
+
+SFMTA transit data that includes a list of all bus stops and their meta data
+ie; address, ID, Geocode. This is updated roughly every three months.
 Here is the website to access it:
 http://www.sfmta.com/about-sfmta/reports/gtfs-transit-data
 
@@ -17,5 +30,4 @@ http://api.everyoneon.org/json.php?zip=94109&distance=20&limit=500
 SF's public libraries: http://sfpl.org/pdf/libraries/sfpl421.pdf
 
 Link-SF: http://www.link-sf.com/#query?categories=technology&sort=near
-
 
