@@ -1,4 +1,5 @@
 {
+    "status": "Beta", 
     "tags": [
         "internet access", 
         "bus stops", 
@@ -6,6 +7,5 @@
         "twilio", 
         "sms", 
         "national day of civic hacking"
-    ], 
-    "status": "Beta"
+    ]
 }
