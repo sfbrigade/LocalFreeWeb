@@ -153,16 +153,15 @@ def trim_address(address, line_two):
     shortened_address = address.street_number + ' ' + street_addr
     return shortened_address
 
-def make_request(insert):
-    """Builds and opens url for SQL INSERT statement to add new location to the
-    'freeweb' database on CartoDB.
+def make_request(sql_statement):
+    """Builds and opens url for SQL statement to modify/add entry in database.
     
     Global vars in:    api_key, url
-    In arg:            insert
+    In arg:            sql_statement
     """
     params = {
         'api_key' : apikey, # our account apikey, don't share!
-        'q'       : insert  # our insert statement above
+        'q'       : sql_statement  # our SQL statement above
     }
     data = urllib.urlencode(params)
     print 'Encoded:', data
